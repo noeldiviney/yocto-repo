@@ -3,31 +3,26 @@
 
   <default sync-j="4" revision="master"/>
 
-  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/Freescale" name="freescale"/>
-  <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://git.yoctoproject.org" name="raspberrypi"/>
-  <remote fetch="git://github.com/Xilinx" name="xilinx"/>
-  <remote fetch="git://github.com/nathanrossi" name="parallella"/>
+  <remote  fetch="git://git.yoctoproject.org"       name="yocto"/>
+  <remote  fetch="git://github.com/Freescale"       name="freescale"/>
+  <remote  fetch="git://git.openembedded.org"       name="oe"/>
+  <remote  fetch="git://git.yoctoproject.org"       name="raspberrypi"/>
+  <remote  fetch="git://github.com/Xilinx"          name="xilinx"/>
+  <remote  fetch="git://github.com/nathanrossi"     name="parallella"/>
 
-  <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="daisy" name="poky" path="sources/poky-daisy"/>
-  <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
-
-  <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
-
-  <project remote="freescale" revision="dizzy" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="yocto"       revision="dizzy"    name="poky"                     path="sources/poky"/>
+  <project remote="yocto"       revision="daisy"    name="poky"                     path="sources/poky-daisy"/>
+  <project remote="yocto"       revision="dizzy"    name="meta-fsl-arm"             path="sources/meta-fsl-arm"/>
+  <project remote="oe"          revision="dizzy"    name="meta-openembedded"        path="sources/meta-openembedded"/>
+  <project remote="freescale"   revision="dizzy"    name="fsl-community-bsp-base"   path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
-
-  <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="freescale" revision="dizzy" name="Documentation" path="sources/Documentation"/>
-
-  <project remote="xilinx" revision="dizzy" name="meta-xilinx" path="sources/meta-xilinx"/>
-  <project remote="parallella" revision="master" name="meta-parallella" path="sources/meta-parallella"/>
-
-  <project remote="raspberrypi" revision="daisy" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  <project remote="freescale"   revision="dizzy"    name="meta-fsl-arm-extra"       path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale"   revision="dizzy"    name="meta-fsl-demos"           path="sources/meta-fsl-demos"/>
+  <project remote="freescale"   revision="dizzy"    name="Documentation"            path="sources/Documentation"/>
+  <project remote="xilinx"      revision="dizzy"    name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="parallella"  revision="master"   name="meta-parallella"          path="sources/meta-parallella"/>
+  <project remote="raspberrypi" revision="daisy"    name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
 
 </manifest>
