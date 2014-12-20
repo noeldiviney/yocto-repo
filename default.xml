@@ -3,6 +3,24 @@
 
   <default sync-j="4" revision="master"/>
 
+  <remote  fetch="git://git.yoctoproject.org"  name="yocto"/>
+  <remote  fetch="git://github.com/Freescale"  name="freescale"/>
+  <remote  fetch="git://git.openembedded.org"  name="oe"/>
+
+
+  <project remote="yocto"     revision="dizzy" name="poky"                    path="sources/poky"/>
+  <project remote="yocto"     revision="dizzy" name="meta-fsl-arm"            path="sources/meta-fsl-arm"/>
+  <project remote="oe"        revision="dizzy" name="meta-openembedded"       path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="dizzy" name="fsl-community-bsp-base"  path="sources/base">
+                  <copyfile dest="README" src="README"/>
+                  <copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra"      path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="dizzy" name="meta-fsl-demos"          path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="dizzy" name="Documentation"           path="sources/Documentation"/>
+
+
+  <!--
   <remote  fetch="git://git.yoctoproject.org"                name="yocto"/>
   <remote  fetch="git://github.com/Freescale"                name="freescale"/>
   <remote  fetch="git://git.openembedded.org"                name="oe"/>
@@ -31,5 +49,5 @@
   <project remote="linaro"      revision="dizzy"    name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="odroid"      revision="master"   name="meta-odroid"              path="sources/meta-odroid"/>
   <project remote="ti"          revision="master"   name="meta-ti"                  path="sources/meta-ti"/>
-
+  -->
 </manifest>
