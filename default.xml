@@ -9,6 +9,8 @@
   <remote  fetch="git://git.yoctoproject.org"                name="raspberrypi"/>
   <remote  fetch="git://github.com/Xilinx"                   name="xilinx"/>
   <remote  fetch="git://github.com/nathanrossi"              name="parallella"/>
+  <remote  fetch="git://git.rocketboards.org"                name="altera"/>
+  <remote  fetch="git://git.linaro.org/openembedded"         name="linaro"/>
 
 
   <project remote="yocto"       revision="dizzy"    name="poky"                    path="sources/poky"/>
@@ -24,6 +26,8 @@
   <project remote="raspberrypi" revision="daisy"    name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
   <project remote="xilinx"      revision="dizzy"    name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="parallella"  revision="master"   name="meta-parallella"          path="sources/meta-parallella"/>
+  <project remote="altera"      revision="dizzy"    name="meta-altera"              path="sources/meta-altera"/>
+  <project remote="linaro"      revision="dizzy"    name="meta-linaro"              path="sources/meta-linaro"/>
 
 
   <!--
