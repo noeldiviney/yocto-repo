@@ -29,7 +29,7 @@
   <project remote="parallella"  revision="master"   name="meta-parallella"          path="sources/meta-parallella"/>
   <project remote="altera"      revision="master"   name="meta-altera"              path="sources/meta-altera"/>
   <project remote="linaro"      revision="dizzy"    name="meta-linaro"              path="sources/meta-linaro"/>
-  <project remote="ti"          revision="dizzy"    name="meta-ti"                  path="sources/meta-ti"/>
+  <project remote="ti"          revision="master"   name="meta-ti"                  path="sources/meta-ti"/>
 
 
   <!--
