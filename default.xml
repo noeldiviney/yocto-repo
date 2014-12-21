@@ -26,7 +26,7 @@
   <project remote="raspberrypi" revision="daisy"    name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
   <project remote="xilinx"      revision="dizzy"    name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="parallella"  revision="master"   name="meta-parallella"          path="sources/meta-parallella"/>
-  <project remote="altera"      revision="dizzy"    name="meta-altera"              path="sources/meta-altera"/>
+  <project remote="altera"      revision="daisy"    name="meta-altera"              path="sources/meta-altera"/>
   <project remote="linaro"      revision="dizzy"    name="meta-linaro"              path="sources/meta-linaro"/>
 
 
