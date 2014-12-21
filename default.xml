@@ -12,6 +12,7 @@
   <remote  fetch="git://git.rocketboards.org"                name="altera"/>
   <remote  fetch="git://git.linaro.org/openembedded"         name="linaro"/>
   <remote  fetch="git://git.yoctoproject.org"                name="ti"/>
+  <remote  fetch="git://github.com/MarkusEich"               name="odroid"/>
 
 
   <project remote="yocto"       revision="dizzy"    name="poky"                    path="sources/poky"/>
@@ -30,6 +31,7 @@
   <project remote="altera"      revision="master"   name="meta-altera"              path="sources/meta-altera"/>
   <project remote="linaro"      revision="dizzy"    name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="ti"          revision="master"   name="meta-ti"                  path="sources/meta-ti"/>
+  <project remote="odroid"      revision="master"   name="meta-odroid"              path="sources/meta-odroid"/>
 
 
   <!--
