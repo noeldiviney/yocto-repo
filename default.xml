@@ -6,6 +6,7 @@
   <remote  fetch="git://git.yoctoproject.org"                name="yocto"/>
   <remote  fetch="git://github.com/Freescale"                name="freescale"/>
   <remote  fetch="git://git.openembedded.org"                name="oe"/>
+  <!--
   <remote  fetch="git://git.yoctoproject.org"                name="raspberrypi"/>
   <remote  fetch="git://github.com/Xilinx"                   name="xilinx"/>
   <remote  fetch="git://github.com/nathanrossi"              name="parallella"/>
@@ -14,6 +15,7 @@
   <remote  fetch="git://git.yoctoproject.org"                name="ti"/>
   <remote  fetch="git://github.com/MarkusEich"               name="odroid"/>
   <remote  fetch="git://github.com/noeldiviney"              name="tnd"/>
+  -->
 
 
   <project remote="yocto"       revision="dizzy"    name="poky"                    path="sources/poky"/>
@@ -26,6 +28,8 @@
   <project remote="freescale"   revision="dizzy"    name="meta-fsl-arm-extra"       path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale"   revision="dizzy"    name="meta-fsl-demos"           path="sources/meta-fsl-demos"/>
   <project remote="freescale"   revision="dizzy"    name="Documentation"            path="sources/Documentation"/>
+  <!--
+
   <project remote="raspberrypi" revision="daisy"    name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
   <project remote="xilinx"      revision="dizzy"    name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="parallella"  revision="master"   name="meta-parallella"          path="sources/meta-parallella"/>
@@ -34,6 +38,7 @@
   <project remote="ti"          revision="master"   name="meta-ti"                  path="sources/meta-ti"/>
   <project remote="odroid"      revision="master"   name="meta-odroid"              path="sources/meta-odroid"/>
   <project remote="tnd"         revision="master"   name="meta-tnd"                 path="sources/meta-tnd"/>
+  -->
 
 
   <!--
