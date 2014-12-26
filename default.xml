@@ -6,6 +6,7 @@
   <remote  fetch="git://git.yoctoproject.org"                name="yocto"/>
   <remote  fetch="git://github.com/Freescale"                name="freescale"/>
   <remote  fetch="git://git.openembedded.org"                name="oe"/>
+  <remote  fetch="git://github.com/noeldiviney"              name="tnd"/>
   <!--
   <remote  fetch="git://git.yoctoproject.org"                name="raspberrypi"/>
   <remote  fetch="git://github.com/Xilinx"                   name="xilinx"/>
@@ -14,7 +15,6 @@
   <remote  fetch="git://git.linaro.org/openembedded"         name="linaro"/>
   <remote  fetch="git://git.yoctoproject.org"                name="ti"/>
   <remote  fetch="git://github.com/MarkusEich"               name="odroid"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="tnd"/>
   -->
 
 
@@ -28,6 +28,7 @@
   <project remote="freescale"   revision="dizzy"    name="meta-fsl-arm-extra"       path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale"   revision="dizzy"    name="meta-fsl-demos"           path="sources/meta-fsl-demos"/>
   <project remote="freescale"   revision="dizzy"    name="Documentation"            path="sources/Documentation"/>
+  <project remote="tnd"         revision="master"   name="meta-tnd"                 path="builds"/>
   <!--
 
   <project remote="raspberrypi" revision="daisy"    name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
@@ -37,7 +38,6 @@
   <project remote="linaro"      revision="dizzy"    name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="ti"          revision="master"   name="meta-ti"                  path="sources/meta-ti"/>
   <project remote="odroid"      revision="master"   name="meta-odroid"              path="sources/meta-odroid"/>
-  <project remote="tnd"         revision="master"   name="meta-tnd"                 path="builds"/>
   -->
 
 
