@@ -37,7 +37,7 @@
   <project remote="linaro"      revision="dizzy"    name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="ti"          revision="master"   name="meta-ti"                  path="sources/meta-ti"/>
   <project remote="odroid"      revision="master"   name="meta-odroid"              path="sources/meta-odroid"/>
-  <project remote="tnd"         revision="master"   name="meta-tnd"                 path="sources/meta-tnd"/>
+  <project remote="tnd"         revision="master"   name="meta-tnd"                 path="builds"/>
   -->
 
 
