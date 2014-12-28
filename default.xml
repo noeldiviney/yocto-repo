@@ -7,6 +7,7 @@
   <remote  fetch="git://github.com/Freescale"                name="freescale"/>
   <remote  fetch="git://git.openembedded.org"                name="oe"/>
   <remote  fetch="git://github.com/noeldiviney"              name="tnd"/>
+  <remote  fetch="git://github.com/meta-qt5"                 name="qt5"/>
   <!--
   <remote  fetch="git://git.yoctoproject.org"                name="raspberrypi"/>
   <remote  fetch="git://github.com/Xilinx"                   name="xilinx"/>
@@ -29,6 +30,7 @@
   <project remote="freescale"   revision="dizzy"    name="meta-fsl-demos"           path="sources/meta-fsl-demos"/>
   <project remote="freescale"   revision="dizzy"    name="Documentation"            path="sources/Documentation"/>
   <project remote="tnd"         revision="master"   name="meta-tnd"                 path="builds"/>
+  <project remote="qt5"         revision="dizzy"    name="meta-qt5"                 path="sources/meta-qt5"/>
   <!--
 
   <project remote="raspberrypi" revision="daisy"    name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
