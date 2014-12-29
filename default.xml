@@ -32,7 +32,7 @@
   <project remote="freescale"   revision="dizzy"    name="Documentation"            path="sources/Documentation"/>
   <project remote="tnd"         revision="master"   name="meta-tnd"                 path="builds"/>
   <project remote="qt5"         revision="dizzy"    name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="raspberrypi" revision="daisy"    name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
+  <project remote="raspberrypi" revision="master"   name="meta-raspberrypi"         path="sources/meta-raspberrypi"/>
   <project remote="gstreamer"   revision="master"   name="meta-gstreamer1.0"        path="sources/meta-gstreamer1.0"/>
   <project remote="xilinx"      revision="dizzy"    name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="parallella"  revision="master"   name="meta-parallella"          path="sources/meta-parallella"/>
