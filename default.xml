@@ -4,6 +4,7 @@
   <default sync-j="4" revision="dizzy"/>
 
   <remote  fetch="git://git.yoctoproject.org"                name="yocto"/>
+  <!--
   <remote  fetch="git://github.com/Freescale"                name="freescale"/>
   <remote  fetch="git://git.openembedded.org"                name="oe"/>
   <remote  fetch="git://github.com/noeldiviney"              name="tnd"/>
@@ -17,10 +18,10 @@
   <remote  fetch="git://git.yoctoproject.org"                name="ti"/>
   <remote  fetch="git://github.com/MarkusEich"               name="odroid"/>
 
-  <!--
   -->
 
   <project remote="yocto"       revision="dizzy"    name="poky"                    path="sources/poky"/>
+  <!--
   <project remote="yocto"       revision="dizzy"    name="meta-fsl-arm"            path="sources/meta-fsl-arm"/>
   <project remote="oe"          revision="dizzy"    name="meta-openembedded"       path="sources/meta-openembedded"/>
   <project remote="freescale"   revision="dizzy"    name="fsl-community-bsp-base"  path="sources/base">
@@ -41,6 +42,5 @@
   <project remote="ti"          revision="master"   name="meta-ti"                  path="sources/meta-ti"/>
   <project remote="odroid"      revision="master"   name="meta-odroid"              path="sources/meta-odroid"/>
 
-  <!--
   -->
 </manifest>
