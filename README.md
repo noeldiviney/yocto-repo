@@ -6,7 +6,7 @@ If you are unfamiliar with repo, you can read up on it [here](http://source.andr
   
 The **yocto** repositories catered for here are
 
-  1.	yocto itself
+  1.	[yocto](https://www.yoctoproject.org/) itself
   2.	openembedded
   3.	
 
