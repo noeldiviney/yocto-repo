@@ -47,7 +47,32 @@ Run Bitbake
 
 
 ## And thats all there is to it ##
+## EXCEPT!!          ##
 
+Raspberrypi fails to build with **yocto dizzy**, so we need **yocto daisy**
 
+### Create the BSP directory for YOCTO 1.7 daisy ###
+    
+    $: PATH=${PATH}:~/bin
+    $: mkdir yocto-daisy
+    $: cd yocto-daisy
 
+#### Initialise the repositories for POKY daisy ####
+
+    $: repo init -u https://github.com/noeldiviney/yocto-repo -b daisy 
+
+#### Download yocto, poky, openembedded and all BSP metadata layers ####
+
+    $: repo sync
+
+once this has completed you should have a complete development environment
+
+### Build a project ie the raspberrypi ###
+source the environment
+
+    $: . ./setup-environment builds/Raspberrypi/model-b+
+
+Run Bitbake
+
+    $: bitbake rpi-hwup-image
     
