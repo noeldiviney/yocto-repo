@@ -7,6 +7,7 @@ If you are unfamiliar with repo, you can read up on it [here](http://source.andr
 The **yocto** repositories catered for here are
 
   1.	[yocto](https://www.yoctoproject.org/) itself
-  2.	openembedded
-  3.	
+  2.	[openembedded](git://git.openembedded.org)
+  3.	[fsl-community-bsp-base](https://github.com/Freescale/fsl-community-bsp-base)
+  4.	[
 
