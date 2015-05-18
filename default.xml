@@ -16,6 +16,7 @@
   <remote  fetch="git://git.linaro.org/openembedded"         name="linaro"/>
   <remote  fetch="git://git.yoctoproject.org"                name="ti"/>
   <remote  fetch="git://github.com/MarkusEich"               name="odroid"/>
+  <remote  fetch="git://github.com/baseapp"                  name="CORE9G25"/>
 
   <!--
   -->
@@ -40,6 +41,7 @@
   <project remote="linaro"      revision="master"    name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="ti"          revision="master"    name="meta-ti"                  path="sources/meta-ti"/>
   <project remote="odroid"      revision="master"    name="meta-odroid"              path="sources/meta-odroid"/>
+  <project remote="CORE9G25"    revision="master"    name="meta-atmel"               path="sources/meta-atmel"/>
 
   <!--
   -->
