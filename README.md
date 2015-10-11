@@ -20,15 +20,15 @@ The BSP is based on the Yocto Project, which consists of a number of applicable 
     $: chmod a+x ~/bin/repo 
 
 
-### Create the BSP directory for YOCTO 1.7 dizzy ###
+### Create the BSP directory for YOCTO 1.7 fido ###
     
     $: PATH=${PATH}:~/bin
-    $: mkdir yocto-dizzy
-    $: cd yocto-dizzy
+    $: mkdir yocto-fido
+    $: cd yocto-fido
 
-#### Initialise the repositories for POKY dizzy ####
+#### Initialise the repositories for POKY fido ####
 
-    $: repo init -u https://github.com/noeldiviney/yocto-repo -b dizzy 
+    $: repo init -u https://github.com/noeldiviney/yocto-repo -b fido 
 
 #### Download yocto, poky, openembedded and all BSP metadata layers ####
 
