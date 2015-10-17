@@ -28,7 +28,7 @@ The BSP is based on the Yocto Project, which consists of a number of applicable 
 
 #### Initialise the repositories for POKY fido ####
 
-    $: repo init -u https://github.com/noeldiviney/yocto-repo -b fido 
+    $: repo init -u https://github.com/noeldiviney/yocto-repo 
 
 #### Download yocto, poky, openembedded and all BSP metadata layers ####
 
@@ -36,41 +36,23 @@ The BSP is based on the Yocto Project, which consists of a number of applicable 
 
 once this has completed you should have a complete development environment
 
+##----------------------------------------------------------------------##
+
 ### Build a project ie the Wanboard-quad ###
 source the environment
 
-    $: . ./setup-environment builds/Freescale/wandboard-quad
+    $: source sources/poky/oe-init-build-env builds/Freescale/wandboard-quad/
 
 Run Bitbake
 
     $: bitbake fsl-image-multimedia-full
 
-
-## And thats all there is to it ##
-## EXCEPT!!          ##
-
-Raspberrypi fails to build with **yocto dizzy**, so we need **yocto daisy**
-
-### Create the BSP directory for YOCTO 1.7 daisy ###
-    
-    $: PATH=${PATH}:~/bin
-    $: mkdir yocto-daisy
-    $: cd yocto-daisy
-
-#### Initialise the repositories for POKY daisy ####
-
-    $: repo init -u https://github.com/noeldiviney/yocto-repo -b daisy 
-
-#### Download yocto, poky, openembedded and all BSP metadata layers ####
-
-    $: repo sync
-
-once this has completed you should have a complete development environment
+##----------------------------------------------------------------------##
 
 ### Build a project ie the raspberrypi ###
 source the environment
 
-    $: . ./setup-environment builds/Raspberrypi/model-b+
+    $: source sources/poky/oe-init-build-env  builds/Raspberrypi/model-b+
 
 Run Bitbake
 
